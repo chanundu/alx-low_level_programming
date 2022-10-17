@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	printf ("coding rocks\n");
+	printf("coding rocks\n");
 	return (0);
 }
