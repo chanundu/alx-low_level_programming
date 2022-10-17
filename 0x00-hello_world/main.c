@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-
 /**
- *  * main - Entry point
- *   *
- *    *Return: Always 0 (Success)
- *     */
- 
- int main(void)
-	 {
-		 	 return(0);
-	 }
+ *main - main entry point for the program
+ *
+ *Description: main output file
+ *Return: 0
+ */
+int main(void)
+{
+	return(0);
+}
