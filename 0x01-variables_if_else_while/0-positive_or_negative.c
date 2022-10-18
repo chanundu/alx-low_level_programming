@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /*
- * main - This is the main entry point of the program
- * prints after comparison whether a number is psitive or negative
- * Return to end the program
- * */
+ *Main - This is the main entry point of the program
+ *Description -  prints if number is positive or negative
+ *Return to end the program
+ */
 
 int main(void)
 {
@@ -12,13 +13,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n<1)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
-	} else if (n==0)
+	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	} else 
+	} else
 	{
 		printf("%d is positive\n", n);
 	}
